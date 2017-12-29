@@ -2,27 +2,19 @@
     <head>
     </head>
     <body>
-        <!-- APP ONE
-          ------------------------------------------>
         <div id="app">
              {{message}}
         </div>
-        <!-- APP ONE
-          ------------------------------------------>
         <div id="app2">
             <span v-bind:title="message">
                  Hover your mouse over me for a few seconds so see my dynamically bound title !
             </span>
         </div>
-        <!-- APP ONE
-         ------------------------------------------>
         <div id="app3">
             <span v-if="seen">
                 Now You see Me
             </span>
         </div>
-        <!-- APP FOUR
-         ------------------------------------------>
          <div id="app4">
             <ol>
                 <li v-for="todo in todos">
@@ -30,8 +22,6 @@
                 </li>
             </ol>
          </div>
-         <!-- APP Five
-           ---------------------------------------->
         <div id="app5">
             <p>{{message}}</p>
             <button v-on:click="reverseMessage">Reverse Message</button>
