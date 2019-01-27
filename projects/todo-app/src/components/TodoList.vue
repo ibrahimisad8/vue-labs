@@ -18,8 +18,8 @@ export default {
     deleteTodo(todo) {
       sweetalert({
         title: 'Are you sure?',
-        text: 'This To-Do will be permanently deleted!',
-        type: 'warning',
+        text:  'This To-Do will be permanently deleted!',
+        type:  'warning',
         showCancelButton: true,
         confirmButtonColor: '#DD6B55',
         confirmButtonText: 'Yes, delete it!',
