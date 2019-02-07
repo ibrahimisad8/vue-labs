@@ -43,7 +43,8 @@
 </template>
 
 <script type="text/javascript">
-  export default {
+
+export default {
     props: ['todo'],
     data() {
       return {
