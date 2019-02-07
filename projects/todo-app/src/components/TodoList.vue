@@ -1,4 +1,5 @@
 <template>
+  <!-- eslint-disable max-len -->
   <div>
     <p class="tasks">Completed Tasks: {{todos.filter(todo => {return todo.done === true}).length}}</p>
     <p class="tasks">Pending Tasks: {{todos.filter(todo => {return todo.done === false}).length}}</p>
